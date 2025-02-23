@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function vietHoaChuCaiDau() {
+        let ten = "nguyễn phương thiên phú";
+        
+        // Tách chuỗi thành các từ
+        let cacTu = ten.split(" ");
+        
+        // Viết hoa chữ cái đầu của mỗi từ
+        let ketQua = cacTu.map(tu => {
+            if (tu.length > 0) {
+                return tu.charAt(0).toUpperCase() + tu.slice(1);
+            }
+            return tu;
+        }).join(" ");
+        
+        // In kết quả
+        console.log("Tên sau khi viết hoa: " + ketQua);
+    }
+
+    // Gọi hàm
+    vietHoaChuCaiDau();
+   </script>
+</body>
+</html>
