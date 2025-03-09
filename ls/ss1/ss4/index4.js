@@ -21,7 +21,7 @@ arr5.splice (1,1,10);
 arr6 = [20,"hello","world","little",true,100,"hello"];
 console.log(arr6.indexof(true));
 console.log(arr6.indexOf(5));
-"Dùng để in ra Key"
+Dùng để in ra Key
  for(let key in student)
  {
      console.log(student[key]);
