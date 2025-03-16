@@ -1,0 +1,6 @@
+.container {
+    display : gird;
+    grid-template-columns: auto auto auto auto;
+    gap : 20px;
+    padding: auto;
+}
